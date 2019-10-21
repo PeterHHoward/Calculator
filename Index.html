@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Calculator body starts here ;)-->
+        <form>
+            <h1>BASIC CALCULATOR</h1>
+            <img src="math.jpg">
+
+            Value 1: <input type="text" id="value1">
+            Value 2: <input type="text" id="value2"> 
+
+            <select id="operator">
+                <option value="add">Add</option>
+                <option value="minus">Minus</option>
+                <option value="div">Divide</option>
+                <option value="mul">Multiply</option>
+            </select>
+
+            <button id="button1" type="button" onclick="calc()">Run Calculator Software</button>
+            
+            <p id="p1">=</p>
+            <div id="results">
+            </div>
+
+            <p id="p2">Created by Peter Howard 2019</p>
+
+        </form>
+   
+</body>
+    <script src="Main.js"></script>
+</html>
